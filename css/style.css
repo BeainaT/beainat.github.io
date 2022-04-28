@@ -1,0 +1,36 @@
+/*RESET*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*TYPO and COMMONS*/
+:root {
+    --primary_color: #fff;
+}
+p {
+    font-size: 2em;
+}
+h1,
+h2,
+p {
+    margin: 1em;
+}
+/*main corps*/
+body {
+    background-image: url(https://images.unsplash.com/photo-1495313196544-7d1adf4e628f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80);
+    background-size: cover;
+    font-family: monospace;
+    color: var(--primary_color);
+}
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    background-color: rgba(150, 150, 150, 0.5);
+    padding: 2em;
+    border-radius: 1em;
+    box-shadow: 1em 1em 1.2em var(--primary_color)
+}
